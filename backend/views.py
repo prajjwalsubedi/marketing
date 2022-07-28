@@ -3,7 +3,6 @@ from django.shortcuts import render
 # Create your views here.
 def Calendar(request):
     return render(request, "calendar.html")
-
 def ChartD(request):
     return render(request, "chart-3d.html")
 def ChartChartist(request):
